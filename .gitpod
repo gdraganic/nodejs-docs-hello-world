@@ -1,4 +1,4 @@
-image: node:carbon
+image: ubuntu:bionic
 ports:
   - port: 8080
     protocol: "http"
