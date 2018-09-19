@@ -1,0 +1,6 @@
+image: node:carbon
+ports:
+  - port: 8080
+    protocol: "http"
+tasks:
+  - command: "npm install && npm run start"
